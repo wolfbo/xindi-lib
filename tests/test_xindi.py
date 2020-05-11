@@ -8,7 +8,7 @@ input_data['managed_network'] = '10.0.0.0/26'
 my_first_net = dict(usecase='first network', owner='Wolfgang Wangerin', department='ITA')
 my_second_net = dict(usecase='second network', owner='Count Duckula', department='OTI')
 
-managed_network = ManagedNetwork(input_data)
+managed_network = ManagedNetwork(indict=input_data)
 managed_network.next_free_subnet(27, my_first_net)
 managed_network.next_free_subnet(27, my_second_net)
 managed_network.free('10.0.0.0/27')
