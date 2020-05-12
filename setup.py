@@ -8,7 +8,7 @@ with open(os.path.join(HERE, "README.md")) as fid:
 
 setup(
     name="xindi-lib",
-    version="0.1.1",
+    version="0.1.2",
     description="library to manage ip subnets",
     long_description=README,
     long_description_content_type="text/markdown",
